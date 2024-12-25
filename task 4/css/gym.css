@@ -14,9 +14,8 @@ header{
     background-size: cover;
     background-position: center center;
 }
-ul{
-    list-style-type: none;
-    text-decoration: none;
+.mt-50{
+    margin-top: 200px;
 }
 .holder{
     width: 100%;
