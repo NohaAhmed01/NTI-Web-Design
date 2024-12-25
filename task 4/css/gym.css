@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+}
+body{
+    font-size: 1rem;
+}
+header{
+    background-image: url("../images/cut.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.holder{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    
+}
+#one{
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+#one .icon-holder{
+    width: 70px;
+    height: 70px;
+    background-color: crimson;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#one .icon-holder i{
+    color: white;
+    font-size: 25px;
+    
+
+}
+#one p{
+    color: grey;
+    padding: 5px;
+}
+#one h3{
+    padding: 10px;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+}
+/*    /******************* could be used like this in the future work
+#two i::after{
+    content: "We care about environment.";
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: blue;
+} */
+#two{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background-color: #f8f9fa;
+}
+.two-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 30px;
+}
+#two img{
+    height: 90vh;
+    margin: 10px;
+}
+.words{
+    background-color: antiquewhite;
+    width: 45%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.words h2{
+    font-size: calc(1.325rem + .9vw);
+}
+.words p{
+    color: #6c757d;
+}
+.list-icon{
+    display: flex;
+    justify-content: center;
+}
+.words i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: crimson;
+    color: white;
+    margin: 10px;
+}
