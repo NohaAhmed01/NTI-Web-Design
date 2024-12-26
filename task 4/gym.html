@@ -13,8 +13,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-transparent ">
+            <div class="container-fluid position-fixed top-5">
               <a class="navbar-brand" href="#"><img class="img-fluid w-50 p-3" src="images/fitness-light.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,11 +48,11 @@
           </nav>
 
           <div class="header-content text-center text-white mt-50">
-            <h1 class="fs-1">Fitness Studio</h1>
-            <p>We're the biggest, best equipped and most advanced fitness studio in the greater Las Vegas area.</p>
-
-          </div>
-          
+            <h1 class="fs-0">Fitness Studio</h1>
+            <p class="fs-5">We're the biggest, best equipped and most advanced fitness studio in the greater Las Vegas area.</p>
+            <button type="button" class="btn btn-danger w-10 m-2">Learn more</button>
+            <button type="button" class="btn btn-outline-light w-10">Our trainer</button>
+          </div>       
     </header>
     <section id="one">
         <div class="holder">
@@ -96,25 +96,191 @@
         </div>
     </section>
     <section id="two">
-        <div class="two-div">
-               <figure>
-            <img src="images/square-9-800x760.jpg" alt="">
-        </figure>
-        <div class="words">
-            <h2>Who we are?</h2>
-            <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
-               <div class="list-icon">
-                    <i class="fa-solid fa-leaf"></i>
-                    <i class="fa-solid fa-users"></i> 
-                    <i class="fa-solid fa-heart"></i> 
-                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-                </div>
-        </div>
-        </div>
-     
+        <div class="card bg-light border border-0">
+          <div class="row m-5 ">
+            <div class="col">
+              <img src="images/square-9-800x760.jpg" class="img-fluid m-5" alt="...">
+            </div>
+            <div class="col-md-6 p-5">
+              <div class="card-body p-5">
+                <h2 class="card-title">Who we are?</h2>
+                <p class="card-text text-muted">We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+                <ul class="list-group list-group-flush " style="list-style-type: none;">
+                  <li class="d-flex justify-content-start align-items-baseline">
+                     <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1">
+                        <i class="fa-solid fa-leaf fs-3"></i>
+                     </div>
+                     <p class="p-3">We care about environment.</p>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-baseline">
+                      <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1">
+                        <i class="fa-solid fa-users fs-3"></i>
+                       </div>
+                       <p class="p-3">We're trusted by hundreds of clients.</p>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-baseline">
+                    <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1">
+                      <i class="fa-solid fa-heart fs-3"></i>
+                    </div>
+                    <p class="p-3">Social media loves us!</p>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-baseline">
+                    <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1">
+                       <i class="fa-solid fa-up-right-and-down-left-from-center fs-3"></i>
+                    </div>
+                    <p class="p-3">This list is super easy to create.</p>
+                  </li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+        </div> 
     </section>
+    <section id="three">
+      <div class="card border border-0">
+        <div class="row m-5 ">
+          <div class="col-md-6 p-3">
+            <div class="card-body p-0 mt-5">
+              <h2 class="card-title">Great Results.</h2>
+              <p class="card-text text-muted pt-3 pb-3">We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+              <ul class="list-group list-group-flush " style="list-style-type: none;">
+                <li class="d-flex justify-content-start align-items-baseline">
+                    <i class="fa-solid fa-thumbs-up text-danger"></i>
+                   <p class="p-3 text-muted">We care about environment.</p>
+                </li>
+                <li class="d-flex justify-content-start align-items-baseline">
+                      <i class="fa-solid fa-thumbs-up text-danger"></i>
+                     <p class="p-3 text-muted">We're trusted by hundreds of clients.</p>
+                </li>
+                <li class="d-flex justify-content-start align-items-baseline">
+                    <i class="fa-solid fa-thumbs-up text-danger"></i>
+                  <p class="p-3 text-muted">Social media loves us!</p>
+                </li>
+              </ul>     
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/square-11-800x740.jpg" class="img-fluid m-2 p-3" alt="...">
+          </div>
+        </div>
+      </div> 
+      <div class="bg-danger w-100 text-white d-flex justify-content-center align-items-center flex-column ">
+        <h2 class="pt-10 pb-5">The best part?</h2>
+        <p class="pb-10 w-50 text-center">We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+      </div>
+    </section>
+    <section id="four" class="bg-light">
+      <div class="upper text-center p-5">
+        <i class="fa-solid fa-trophy text-danger fs-1"></i>
+        <h3 class="p-3">Why us?</h3>
+        <p class="text-muted">Learn a bit more about our gym best features.</p>
+      </div>
+      <div class="lower">
+        <div class="row mx-5 ">
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-square-poll-vertical text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div>
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-tv text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div>
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-pen text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div> 
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-laptop-file text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div> 
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-square-poll-vertical text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div>
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-tv text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div>
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-pen text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div> 
+          <div class="col-md-3 my-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="icon-bg p-3 mb-2 bg-danger text-white rounded-circle w-1 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-laptop-file text-white fs-2"></i>
+           </div>
+           <h5>Powerful Options</h5>
+           <p class="text-muted text-center">Take a full control over all aspects of your theme with our truly extensive Options Panel.</p>
+          </div>  
+        </div>
+      </div>
+      
+    </section>
+    <section id="six">
+      <div class="w-100 text-white d-flex justify-content-center align-items-center flex-column ">
+        <h2 class="pt-50">Feeling convinced?</h2>
+        <p class="w-50 text-center">Join our gym today and save up to 30%!</p>
+        <button type="button" class="btn btn-danger w-10 m-2">Fill the form</button>
+      </div>
 
-
+    </section>
+    <footer>
+      <div class="details bg-dark w-100 " style="height: 80vh;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 my-5">
+              <h5 class="text-white my-3">About us</h5>
+              <p class="text-muted">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur. I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.</p>
+              <p class="text-muted">We are the champions! We are the most amazing theme of all time, yeah.</p>
+            </div>
+            <div class="col-md-3 my-5">
+              <h5 class="text-white my-3">flicker</h5>
+            </div>
+            <div class="col-md-3 my-5">
+              <h5 class="text-white my-3">About us</h5>
+              <ul class="list-group list-group-flush text-white">
+                <li class="list-group-item bg-dark text-muted border-bottom border-white">An item</li>
+                <li class="list-group-item bg-dark text-muted border-bottom border-white">A second item</li>
+                <li class="list-group-item bg-dark text-muted border-bottom border-white"">A third item</li>
+                <li class="list-group-item bg-dark text-muted border-bottom border-white">A fourth item</li>
+                <li class="list-group-item bg-dark text-muted ">And a fifth one</li>
+              </ul>
+            </div>
+            <div class="col-md-3 my-5">
+              <h5 class="text-white my-3">Contact Details</h5>
+              <ul class="list-group list-group-flush text-white">
+                <li class="list-group-item bg-dark text-muted border-bottom border-white">An item</li>
+                <li class="list-group-item bg-dark text-muted border-bottom border-white">A second item</li>
+                <li class="list-group-item bg-dark text-muted border-bottom border-white"">A third item</li>
+                <li class="list-group-item bg-dark text-muted border-bottom border-white">A fourth item</li>
+                <li class="list-group-item bg-dark text-muted ">And a fifth one</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 
