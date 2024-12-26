@@ -14,8 +14,39 @@ header{
     background-size: cover;
     background-position: center center;
 }
+#six{
+    background-image: url("../images/cut.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center; 
+}
 .mt-50{
     margin-top: 200px;
+}
+.fs-0{
+    font-size: 75px;
+}
+.w-10{
+    width: 120px;
+    height: 55px;
+}
+.w-1{
+    width: 63px;
+    height: 63px;
+}
+.pt-10{
+    padding-top: 100px;
+}
+.pb-10{
+    padding-bottom: 100px;
+}
+.pt-50{
+    padding-top: 300px;
+}
+.top-5{
+    top: 5px;
+    z-index: 55;
 }
 .holder{
     width: 100%;
@@ -59,53 +90,4 @@ header{
     align-items: center;
     flex-direction: column;
     padding: 7px;
-}
-/*    /******************* could be used like this in the future work
-#two i::after{
-    content: "We care about environment.";
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    color: blue;
-} */
-#two{
-    width: 100%;
-    height: 120vh;
-    display: flex;
-    background-color: #f8f9fa;
-}
-.two-div{
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    margin: 30px;
-}
-#two img{
-    height: 90vh;
-    margin: 10px;
-}
-.words{
-    background-color: antiquewhite;
-    width: 45%;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-}
-.words h2{
-    font-size: calc(1.325rem + .9vw);
-}
-.words p{
-    color: #6c757d;
-}
-.list-icon{
-    display: flex;
-    justify-content: center;
-}
-.words i{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: crimson;
-    color: white;
-    margin: 10px;
 }
